@@ -1,0 +1,25 @@
+body{
+  /* background-color: rgb(224 242 254); */
+  color: rgb(248, 207, 131);
+}
+
+.cardContainer{
+  position: relative;
+}
+.top{
+  cursor: pointer;
+}
+.committee{
+  color: rgb(248, 207, 131);
+}
+.small{
+  color: rgb(231, 156, 17);
+}
+
+@media screen and (max-width:500px) {
+  .gmunimage{
+    width: 65px;
+  }
+  
+  
+}
