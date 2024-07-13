@@ -5,6 +5,10 @@ import Card from './components/Card'
 import Moon from './assets/moon.svg'
 import Sun from './assets/sun.svg'
 import GMUN from './assets/GMUN logo.png'
+import UNSC from './assets/unsc.jpg'
+import UNHRC from './assets/UNHRC.jpg'
+import ECOSOC from './assets/ecosoc.jpg'
+import DISEC from './assets/disec.jpg'
 
 
 function App() {
@@ -25,8 +29,6 @@ function App() {
       behavior: 'smooth'
     });
   }
-
-  const imgSrcs = ["https://www.cqiitkgp.com/GMUN/committees/unsc.jpg", "https://www.cqiitkgp.com/GMUN/committees/UNHRC.jpg", "https://www.cqiitkgp.com/GMUN/committees/ecosoc.jpg", "https://www.cqiitkgp.com/GMUN/committees/disec.jpg"]
 
   const imagetexts1 = ["UNSC (The United Nations Security Council) is the most powerful organ of the United Nations. It is charged with maintaining peace and security between nations. The Security Council has the power to make decisions that member governments must carry out under the United Nations Charter. The decisions of the Council are known as UN Security Council Resolutions. For detailed info please click on the icon below",
 
@@ -94,14 +96,15 @@ function App() {
       </div>}
 
       <div className="cardContainer relative z-0 w-[100%] text-center flex flex-col justify-center items-center">
-        <div id='card1'><Card imgsrc={imgSrcs[0]} imagetext={imagetexts1[0]} agenda={agendaText[0]} what={WhatHow[0]} heading={heading[0]} officialLink={officialLinks[0]} /></div>
+        <div id='card1'><Card imgsrc={UNSC} imagetext={imagetexts1[0]} agenda={agendaText[0]} what={WhatHow[0]} heading={heading[0]} officialLink={officialLinks[0]} /></div>
 
-        <div id='card2'><Card imgsrc={imgSrcs[1]} imagetext={imagetexts1[1]} agenda={agendaText[1]} what={WhatHow[1]} heading={heading[1]} officialLink={officialLinks[1]} /></div>
+        <div id='card2'><Card imgsrc={UNHRC} imagetext={imagetexts1[1]} agenda={agendaText[1]} what={WhatHow[1]} heading={heading[1]} officialLink={officialLinks[1]} /></div>
 
-        <div id='card3'><Card imgsrc={imgSrcs[2]} imagetext={imagetexts1[2]} agenda={agendaText[2]} what={WhatHow[2]} heading={heading[2]} officialLink={officialLinks[2]} /></div>
+        <div id='card3'><Card imgsrc={ECOSOC} imagetext={imagetexts1[2]} agenda={agendaText[2]} what={WhatHow[2]} heading={heading[2]} officialLink={officialLinks[2]} /></div>
 
-        <div id='card4'><Card imgsrc={imgSrcs[3]} imagetext={imagetexts1[3]} agenda={agendaText[3]} what={WhatHow[3]} heading={heading[3]} officialLink={officialLinks[3]} /></div>
+        <div id='card4'><Card imgsrc={DISEC} imagetext={imagetexts1[3]} agenda={agendaText[3]} what={WhatHow[3]} heading={heading[3]} officialLink={officialLinks[3]} /></div>
       </div>
+
 
       <div className={`top w-max sticky bottom-5 left-[90%] p-3 bg-slate-800 cursor-pointer  rounded-lg ${darkmode ? 'bg-slate-800' : 'bg-sky-200'}`} >
         <svg onClick={scrollToTop} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="40px" height="30px" color="rgb(248, 207, 131)" fill="none">
