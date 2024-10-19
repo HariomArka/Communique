@@ -66,7 +66,7 @@ function App() {
         <ul className='flex text-2xl gap-[50px] mx-4 font-serif duration-700'>
 
           <Link className='cursor-pointer p-2 rounded-lg hover:text-yellow-500 hover:bg-slate-600 duration-700 max-[1100px]:hidden' to='card1' smooth={true} duration={700}>UNSC</Link>
-          <Link className='cursor-pointer p-2 rounded-lg hover:text-yellow-500 hover:bg-slate-600 duration-700 max-[1100px]:hidden' to='card12' smooth={true} duration={700}>UNHRC</Link>
+          <Link className='cursor-pointer p-2 rounded-lg hover:text-yellow-500 hover:bg-slate-600 duration-700 max-[1100px]:hidden' to='card2' smooth={true} duration={700}>UNHRC</Link>
           <Link className='cursor-pointer p-2 rounded-lg hover:text-yellow-500 hover:bg-slate-600 duration-700 max-[1100px]:hidden' to='card3' smooth={true} duration={700}>ECOSOC</Link>
           <Link className='cursor-pointer p-2 rounded-lg hover:text-yellow-500 hover:bg-slate-600 duration-700 max-[1100px]:hidden' to='card4' smooth={true} duration={700}>DISEC</Link>
 
